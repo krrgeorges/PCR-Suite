@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#273746"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/refresh"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Previous Day PCR"
+            android:textColor="#EAEDED"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.19"
+            android:id="@+id/prev_pcr"
+            android:textColor="#FFFFFF"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Live PCR"
+            android:textStyle="bold"
+            android:textColor="#EAEDED  "/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.19"
+            android:id="@+id/live_pcr"
+            android:textColor="#FFFFFF"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Percentage Change"
+            android:textStyle="bold"
+            android:textColor="#EAEDED  "/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.19"
+            android:id="@+id/percent_change"
+            android:textColor="#FFFFFF"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiry Date"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#EAEDED  "/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.19"
+            android:id="@+id/expiry_date"
+            android:textColor="#FFFFFF"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#EAEDED  "/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="1.19"
+            android:id="@+id/status"
+            android:textColor="#FFFFFF"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
